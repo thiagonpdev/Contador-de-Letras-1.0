@@ -4,15 +4,13 @@
     {
         static void Main(string[] args)
         {
-            string linha = string.Empty;
-
             Console.WriteLine("Digite uma palavra ou texto: ");
             string texto = Console.ReadLine()!;
-            Console.WriteLine(linha);
-            
+            Console.WriteLine();
+                
             Console.WriteLine("Digite a letra que deseja contar: ");
             char letraProcurada = Console.ReadLine()![0];
-            Console.WriteLine(linha);
+            Console.WriteLine();
 
             texto = texto.ToLower();
             letraProcurada = char.ToLower(letraProcurada);
